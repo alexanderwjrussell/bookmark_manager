@@ -1,0 +1,32 @@
+Definition of CRUD
+
+CRUD stands for Create, Read, Update and Delete. These are the basic building
+blocks of interacting with data inside a database.
+
+Definition of SQL
+
+SQL stands for Structured Query Language. This is the most common
+language used to communicate with databases.
+
+Create = The SQL command for create is INSERT.  This will create new rows in
+          a table.
+          An example of this might be;
+          INSERT INTO "students" (NAME) VALUES ('Brian');
+This inserts the name 'Brian' into the students column with a value of name.
+
+Read = The SQL command for read is SELECT. This selects the specified
+      information from the table.
+      An example of this might be:
+      SELECT * FROM students;
+This selects the students from the database.
+
+Update = The SQL for update is UPDATE. This enables us to update existing values
+        in our database.
+        An example of this might be:
+        UPDATE "students" SET NAME = 'Brian' WHERE ID = 1;
+This is updating the ID position of 1 with the name 'Brian'.
+
+Delete = The SQL for delete is DELETE. This will remove a row from the table.
+        An example of this might be:
+        DELETE FROM 'students' WHERE NAME = 'Brian'
+This would delete the row where the name value is 'Brian'. 
