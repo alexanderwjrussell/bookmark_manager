@@ -6,8 +6,7 @@ gem 'sinatra'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 
-group :test do
-  gem 'capybara'
-  gem 'rspec'
-  gem 'rspec-sinatra'
-end
+
+gem 'capybara'
+gem 'rspec'
+gem 'rspec-sinatra'
